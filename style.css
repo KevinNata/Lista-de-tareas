@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#separador{
+    margin-top: 20px;
+}
+
+h1{
+    padding: 20px;
+    background-color:#9BC9F9 ;
+}
+
+#activ{
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+}
+
+#activ::placeholder{
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+}
+
+#boton{
+    
+    padding: 0;
+    background-color: #5FA0E3;
+    width: 50px;
+    height: 50px;
+}
+
+#boton:hover{
+    background-color: coral;
+}
+
+
+ul{
+    list-style: none;
+}
+
+li p {
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+.borrador{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgba(255,0,0);
+}
+
+.borrador:hover{
+    background-color: cadetblue;
+}
+#mensaje{
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+footer{
+    width:100%;
+    background: #9BC9F9;
+    border: 0px;
+    margin: 0;
+    position: fixed;
+    top: 90%;
+    left: 0;
+    height: 75px;
+}
+
+footer h3{
+    text-align: right;
+    padding: 0px;
+    position: absolute; 
+    top: 20px;
+    left: 10px;
+    font-family: Verdana;
+    display: inline;
+}
+
+.email{
+    
+    width:50px;
+    height:50px;
+    position: absolute;
+    left: 80%;
+    top:10px;
+}
+
+.linkedin{
+    width:50px;
+    height:50px;
+    position: absolute;
+    left: 90%;
+    top:10px;
+}
+
+@media (max-width: 780px){
+    #container{
+        width: 90%;
+    }
+
+    #activ{
+        width: 80%;
+    }
+    #mensaje{
+        font-size: 20px;
+    }
+    .email{
+    
+        width:30px;
+        height:30px;
+        position: absolute;
+        left: 80%;
+        top:10px;
+    }
+    
+    .linkedin{
+        width:30px;
+        height:30px;
+        position: absolute;
+        left: 90%;
+        top:10px;
+    }
+
+}
